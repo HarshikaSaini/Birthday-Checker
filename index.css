@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Dancing+Script:wght@700&family=Noticia+Text:ital@1&family=Playfair+Display:wght@600&display=swap');
+
+:root {
+    --primary-dark: rgb(49, 48, 48);
+    --primary-green: rgb(198, 252, 52);
+}
+
+.Container {
+    /* border: 2px solid white; */
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-size: 35px;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+label,
+input,p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0.7rem;
+}
+
+input {
+    width: 15rem;
+    height: 1.2rem;
+}
+
+button {
+    margin-left: 14rem;
+    width: 15rem;
+    height: 2rem;
+    background-color: var(--primary-green); 
+    color: var(--primary-dark);
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 3rem;
+    margin-bottom:3rem;
+}
+button:hover{
+    background-color: rgb(33, 255, 4);
+    color: white;
+}
