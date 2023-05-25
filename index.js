@@ -11,10 +11,10 @@ function CheckingNumberLuckyOrNot(){
 
 function CompareValues(sum, luckyNum){
  if(sum%luckyNum===0){
-    finalResult.innerText="Your Birth Date is lucky 😄"
+    finalResult.innerText="Your birth date is lucky 😄"
  }
  else{
-    finalResult.innerText="Your Birth Date is not lucky 😒";
+    finalResult.innerText="Your birth date is not lucky 😒";
  }
 }
 
